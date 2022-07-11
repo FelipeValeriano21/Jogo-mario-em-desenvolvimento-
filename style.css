@@ -1,0 +1,196 @@
+header, main {
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+h1{
+
+font-size: 20px;
+color: white;
+
+}
+
+body{
+
+
+    background-color: rgb(6, 42, 48);
+}
+
+.conteudo{
+
+height: 500px;
+width: 900px;
+background-image: linear-gradient(180deg, rgb(0, 38, 255), yellow);
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+
+
+}
+
+
+
+
+.comandos{
+
+height: 120px;
+width: 370px;
+background-color: rgb(53, 53, 53);
+margin-top: 30px;
+border-radius: 50px;
+
+}
+
+#bot1{
+
+background-color: rgb(97, 10, 236);
+color: white;   
+margin-top: 30px;
+margin-left: 58px;
+
+}
+
+#bot2{
+
+    background-color: rgb(97, 10, 236);
+    color: white;   
+    margin-top: 30px;
+    margin-left: 58px;
+    
+    }
+
+
+#bot3{
+
+background-color: rgb(97, 10, 236);
+color: white;   
+margin-top: 30px;
+margin-left: 58px;
+
+}
+
+#bot4{
+
+    background-color: rgb(97, 10, 236);
+    color: white;   
+    margin-top: 30px;
+    margin-left: 58px;
+    
+}
+
+#pipe2{
+
+  height: 500px;
+  margin-left: -685px;
+  margin-top: -250px;
+  animation: 3s pipe-back2 infinite linear;
+  
+
+
+}
+
+
+#pipe3{
+
+  height: 500px;
+  margin-left: 70px;
+  margin-top: -500px;
+  animation: 3s pipe-back3 infinite linear;
+
+}
+
+keyframes pipe-back2 {
+
+  from {
+    transform: translateX(50px);
+  }
+  to {
+    transform: translateX(-800px);
+  }
+
+}
+
+
+keyframes pipe-back3 {
+
+  from {
+    transform: translateX(50px);
+  }
+  to {
+    transform: translateX(-800px);
+  }
+}
+
+@keyframes pipe-back {
+
+  from {
+    transform: translateX(50px);
+  }
+  to {
+    transform: translateX(-800px);
+  }
+
+}
+
+#pipe{
+
+  height: 500px;
+  margin-left: 900px;
+  animation: 2s pipe-back infinite linear;
+  overflow: hidden;
+  right: -50px;
+  
+  
+  }
+
+  @keyframes fly {
+
+    0% {
+       bottom: 175px;
+      }
+      50% {
+        bottom: 500px;
+      }
+
+      60%{
+
+bottom: 500px;
+
+      }
+
+      100%{
+
+        bottom: 175px;
+      }
+  
+}
+
+#bird{
+
+  height: 150px;
+  margin-top: 200px;
+  margin-left: -300px;
+  bottom: 175px;
+  position: absolute;
+  animation: 3s fly infinite linear;
+  
+  }
+
+#moon{
+
+height: 150px;
+margin-top: -500px;
+
+  }
+
+
+  #nuvem{
+
+height: 30px;
+
+  }
